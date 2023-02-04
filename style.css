@@ -1,0 +1,24 @@
+@import url(./font.css);
+
+.header_area.main_menu.navbar.navbar-brand{
+    padding:0 2rem 0 5rem;
+}
+
+.header_area.main_menu.navbar{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+
+    .header_area.main_menu.nav-item.nav-link{
+        font-family:"Poppins",cursive;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 1.7rem;
+        color: black;
+    }
+
+    h6{
+        padding-top: 1rem;
+    }
