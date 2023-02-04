@@ -1,24 +1,44 @@
 @import url(./font.css);
 
-.header_area.main_menu.navbar.navbar-brand{
-    padding:0 2rem 0 5rem;
+.navbar-brand{
+    padding:0 0.2rem 0 0.3rem;
 }
 
-.header_area.main_menu.navbar{
-    padding-left: 20rem;
-    padding-right: 20rem;
+.navbar{
+    padding-left: 5rem;
+    padding-right: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: rgb(255, 255, 255);
     }
 
-    .header_area.main_menu.nav-item.nav-link{
-        font-family:"Poppins",cursive;
+    .nav-link{
+        font-family:"Poppins";
         text-transform: uppercase;
-        font-weight: 500;
-        padding: 1.7rem;
-        color: black;
+        font-weight: 1000;
+        font-size: larger;
+        padding: 1.5rem;
+        color: teal;
+    }
+
+    .nav-item{
+        padding-left: 2px;
+        padding-right: 2px;
+
     }
 
     h6{
         padding-top: 1rem;
     }
+    
+    p{
+        background-color:rgb(220, 212, 212);
+        padding:50px;
+        width:45%;
+        margin-left:50px;
+    }
+.container{
+    align-items: center;
+    justify-content: center;
+}
+
